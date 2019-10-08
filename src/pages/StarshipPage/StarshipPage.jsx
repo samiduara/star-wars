@@ -10,11 +10,11 @@ const StarshipPage = (props) => {
     <div className='StarshipPage'>
       {starship ?
         <div className='StarshipPage-starship'>
-          <span>NAME:</span>
-          <span>{starship.name}</span>
-          <span>MODEL:</span>
-          <span>{starship.model}</span>
-          <Link to='/'>RETURN</Link>
+          <flex>NAME:</flex>
+          <flex>{starship.name}</flex>
+          <flex>MODEL:</flex>
+          <flex>{starship.model}</flex>
+          <Link to='/'>RETURN</Link> 
         </div>
         :
         <h3>Loading...</h3>

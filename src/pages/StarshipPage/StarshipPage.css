@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-gap: 20px;
-    background-color: darkslategrey;
+    background-color: rgb(79, 59, 47);
     color: white;
   }
   

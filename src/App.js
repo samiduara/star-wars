@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route, Switch, Link } from 'react-router-dom';
 import { getAllStarships } from './pages/services/sw-api';
+import { Route, Switch, Link } from 'react-router-dom';
 import StarshipPage from './pages/StarshipPage/StarshipPage';
 
 class App extends Component {
