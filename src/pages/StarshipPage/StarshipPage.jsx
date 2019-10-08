@@ -12,6 +12,10 @@ const StarshipPage = (props) => {
         <div className='StarshipPage-starship'>
           <flex>NAME:</flex>
           <flex>{starship.name}</flex>
+          <flex>Skywalker:captain</flex>
+          <flex>{starship.Skywalker}</flex>
+          <flex>DarkVader:pilot</flex>
+          <flex>{starship.DarkVader}</flex>
           <flex>MODEL:</flex>
           <flex>{starship.model}</flex>
           <Link to='/'>RETURN</Link> 
